@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family: "Open Sans" ;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+header{
+    background-color: white;
+    font-family: sans-serif;
+    color: #343a40;
+    width: 100%;
+    height: 130px;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: #343a40;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 75px;
+    font-size: 22px;
+}
+.monflex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+.logo img {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 10px;
+}
+/*PAGE XIAOLI*/
+.artcle1{
+    width: 98%;
+    padding: 20PX;
+    margin: 20PX 0PX;
+}
+.artcle2{
+    width: 98%;
+    padding: 20PX;
+    margin: 20PX 0PX;
+    display: flex;
+}
+.artcle_left{
+    width: 65%;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    float: left;
+    padding-bottom: 10px;
+}
+
+.artcle_right{
+    width: 33%;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    float: right;
+    padding-bottom: 10px;
+}
+.artcle_left3 {
+    width: 33%;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    flex: 1;
+    margin-right: 10PX;
+    margin-bottom: 10px;
+}
+.artcle_right2{
+    width: 65%;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    flex: 0 0 auto;
+    padding-bottom: 10px;
+}
+.artcle_left1 {
+    width: 98%;
+    display: flex;
+    margin-bottom: 10PX;
+    padding-bottom: 10px;
+}
+.text1{
+    float: left;
+    width: 48%;
+    margin-left: 10PX;
+}
+.image1{
+    
+    width: 50%;
+}
+
+.artcle_left2{
+    width: 100%;
+    display: flex;
+}
+.text2{
+    width: 48%;
+    margin-left: 10PX;
+}
+.image2{
+    float: left;
+    width: 50%;
+    margin-right: 10PX;
+}
+
+.txt{
+    margin-left: 10PX;
+}
+
+.titre1{
+    font-size: 20PX;
+    font-weight: 600;
+    font-family: OPEN SANS;
+}
+.titre2{
+    font-size: 20PX;
+    font-weight: 600;
+    font-family: OPEN SANS;
+    color: brown;
+}
+
+
+.titre3{
+    font-size: 16PX;
+    font-weight: 600;
+    font-family: OPEN SANS;
+}
+.titre4{
+    font-size: 25PX;
+    font-weight: 900;
+    font-family: OPEN SANS;
+    color: blue;
+}
+.titre5{
+    font-size: 16PX;
+    font-family: OPEN SANS;
+}
+.decouv{
+    width: 200PX;
+    font-size: 20PX;
+    font-weight: 900;
+    border: 1px solid gray;
+    align-content: center;
+    padding: 20PX;
+    background-color: white;
+}
+.decouv:hover{
+    background-color: burlywood;
+}
+/*footer*/
+footer {
+    background-color: white;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+.footer-bottom {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #e7e7e7;
+}
+.footer-bottom p {
+    margin: 0;
+}
